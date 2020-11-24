@@ -1,0 +1,22 @@
+algoritmo "SOMADORNUMERICOEMAIOREMENOR"
+
+var
+ N, S, MAIOR, MENOR, CONTADOR: INTEIRO
+inicio
+      CONTADOR <- 1
+      S <-0
+      ENQUANTO (CONTADOR <= 5) FACA
+      ESCREVA("DIGITE O ", CONTADOR, "°. VALOR : ")
+      LEIA (N)
+      SE (N > MAIOR) ENTAO
+         MAIOR <- N
+         SENAO (N < MENOR)
+         MENOR <- N
+      FIMSE
+      S <- S + N
+      CONTADOR <- CONTADOR + 1
+      FIMENQUANTO
+         ESCREVAL ("A SOMA DE TODOS OS VALORES FOI ", S)
+         ESCREVAL ("O MAIOR VALOR DIGITADO FOI ", MAIOR)
+         ESCREVAL ("O MENOR VALOR DIGITADO FOI ", MENOR)
+fimalgoritmo
