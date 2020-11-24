@@ -1,0 +1,12 @@
+algoritmo "MINHA IDADE"
+
+var
+   ANO_ATUAL, ANO_NASC, IDADE: INTEIRO
+inicio
+      ESCREVA ("EM QUE ANO NOS ESTAMOS? ")
+      LEIA (ANO_ATUAL)
+      ESCREVA ("EM QUE ANO EU NASCI? ")
+      LEIA (ANO_NASC)
+      IDADE <- ANO_ATUAL - ANO_NASC
+      ESCREVA ("MINHA IDADE É ",IDADE)
+fimalgoritmo

@@ -1,0 +1,22 @@
+algoritmo "PARIMPAR"
+
+var
+ N: INTEIRO
+ R: CARACTERE
+
+FUNCAO PAROUIMPAR (V: INTEIRO) : CARACTERE
+inicio
+      SE (V% 2 = 0) ENTAO
+       RETORNE "PAR"
+      SENAO
+       RETORNE "IMPAR"
+      FIMSE
+FIMFUNCAO
+
+INICIO
+      ESCREVA("DIGITE UM NUMERO: ")
+      LEIA(N)
+      R <- PAROUIMPAR (N)
+      ESCREVA ("O NUMERO ", N, " E UM VALOR ", R)
+
+fimalgoritmo

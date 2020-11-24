@@ -1,0 +1,22 @@
+algoritmo "FIBONACCIREFERENCIA"
+
+var
+ C, T1, T2, T3: INTEIRO
+
+PROCEDIMENTO PROXIMOFIBONACCI (VAR A, B: INTEIRO)
+VAR C: INTEIRO
+INICIO
+      C := A + B
+      ESCREVA (C)
+      A := B
+      B := C
+FIMPROCEDIMENTO
+INICIO
+      T1 <- 0
+      ESCREVA(T1)
+      T2 <- 1
+      ESCREVA(T2)
+      PARA C:= 3 ATE 10 FACA
+           PROXIMOFIBONACCI (T1, T2)
+      FIMPARA
+fimalgoritmo
